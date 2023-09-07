@@ -41,6 +41,8 @@ fun main() {
     //with all variables calculated, format ALL variables to 2 decimal places, and print out the variables in a
 // organized manner
 
+    //site Link for Info About decimal Formatting: https://www.techiedelight.com/round-up-a-float-or-a-double-with-2-decimal-places-in-kotlin/
+
     //set the bill format using the java decimal format function
     val billFormat = DecimalFormat("#.##")
     //tell the formatter to round DOWN when possible instead of favoring up
